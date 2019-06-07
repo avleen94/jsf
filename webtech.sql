@@ -4,7 +4,7 @@ CREATE TABLE users(
     password VARCHAR(50) NOT NULL
 );
 
-INSERT INTO users (ID, username, password) VALUES (1, "user", "pass");
+INSERT INTO users (ID, username, password) VALUES (1, "webtech", "webtech");
 
 CREATE TABLE filme(
     filmID INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
